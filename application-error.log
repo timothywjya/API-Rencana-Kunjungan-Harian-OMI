@@ -1,0 +1,10 @@
+error: Hello Error {"ms":"+3ms","timestamp":"2024-05-01T06:56:42.942Z"}
+error: Hello Error {"ms":"+3ms","timestamp":"2024-05-01T07:11:31.312Z"}
+error: new error {"ms":"+0ms","timestamp":"2024-05-01T10:43:21.537Z"}
+error: test error {"ms":"+0ms","timestamp":"2024-05-01T10:43:33.560Z"}
+error: error terus {"ms":"+0ms","timestamp":"2024-05-01T10:44:28.382Z"}
+{"level":"error","message":"error terus2","ms":"+4ms","timestamp":"2024-05-01T10:46:33.288Z"}
+{"level":"error","message":"error terus2","ms":"+5ms","timestamp":"2024-05-02T16:30:04.261Z"}
+{"level":"error","message":"\nInvalid `prisma.user.create()` invocation:\n\n{\n  data: {\n    username: \"mesah\",\n    password: \"$2b$10$8jw6w2YXM82C/lV1AzfnZ.jBv1QHhySczPeLN/lBZ1SVQFuiXzdme\",\n    name: \"mesahbarus\"\n  },\n  select: {\n    username: true,\n    name: true\n  },\n  where: {\n  ~~~~~\n    username: \"mesah\"\n  }\n}\n\nUnknown argument `where`. Available options are marked with ?.","ms":"+0ms","target":"user.create","timestamp":"2024-05-05T09:51:05.150Z"}
+{"level":"error","message":"\nInvalid `prisma.user.create()` invocation:\n\n{\n  data: {\n    username: \"mesah\",\n    password: \"$2b$10$dl5Mt9f0DM5nQxU9sEDXVuw/TS/yJDgoBdhNTZPJBHbkef93GnAWe\",\n    name: \"mesahbarus\"\n  },\n  where: {\n  ~~~~~\n    username: \"mesah\"\n  },\n  select: {\n    username: true,\n    name: true\n  }\n}\n\nUnknown argument `where`. Available options are marked with ?.","ms":"+0ms","target":"user.create","timestamp":"2024-05-05T09:52:44.600Z"}
+{"level":"error","message":"\nInvalid `prisma.user.findMany()` invocation:\n\n\nThe table `users` does not exist in the current database.","ms":"+0ms","target":"user.findMany","timestamp":"2024-05-07T04:12:05.901Z"}
